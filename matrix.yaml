@@ -1,0 +1,20 @@
+systems:
+  - letta
+attacks:
+  - clean
+  - reflection_loop
+  - compression_saturation
+  - cascading_chain
+intensities:
+  - low
+  - medium
+  - high
+repeats: 5
+seed: 20260820
+recovery_checkpoints_s: [60, 300, 1800, 3600]
+models:
+  llm: "qwen2.5:1.5b-instruct"
+  embedding: "nomic-embed-text:latest"
+datasets:
+  - longeval_curated
+  - locomo_curated

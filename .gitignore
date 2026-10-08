@@ -1,0 +1,42 @@
+# Python environments and build output
+.venv/
+.letta-venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Test, type-checking, and formatter caches
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local services and experiment state
+.letta-data/
+.mabench/
+data/raw/
+data/processed/
+data/chroma/
+results/
+*.sqlite3
+*.sqlite
+*.db
+*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
